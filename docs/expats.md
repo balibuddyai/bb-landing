@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-<img src="assets/logos/expat_logo.png" alt="Bali Buddy Logo" width="500">
+<img src="../assets/logos/expat_logo.png" alt="Bali Buddy Logo" width="500">
 
 Living in Bali is amazing, but sometimes finding reliable information can be tricky.  
 Bali Buddy is your **trusted buddy**, always there to help — before you move, and every day after.  

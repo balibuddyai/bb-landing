@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-<img src="assets/logos/tourist_logo.png" alt="Bali Buddy Logo" width="500">
+<img src="../assets/logos/tourist_logo.png" alt="Bali Buddy Logo" width="500">
 
 Traveling to Bali? 🌴 Bali Buddy is your **local friend powered by smart AI**, ready to make your holiday simple and memorable.  
 

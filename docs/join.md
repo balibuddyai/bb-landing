@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-<img src="assets/logos/join_us_logo.png" alt="Bali Buddy Logo" width="500">
+<img src="../assets/logos/join_us_logo.png" alt="Bali Buddy Logo" width="500">
 
 Be part of a new way to experience Bali. Bali Buddy is not another app to download — it’s your **friend on the island**, powered by smart AI, always ready to guide tourists and expats.  
 

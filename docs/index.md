@@ -15,8 +15,9 @@ Bali Buddy is not just another chatbot — it’s your **local buddy powered by 
 
 Available directly on 
 <img src="assets/icons/whatsapp_icon.png" alt="Whatsapp Icon" width="22" style="vertical-align:middle;"> **WhatsApp**
-and <img src="assets/icons/telegram_icon.png" alt="Telegram Icon" width="22" style="vertical-align:middle;"> **Telegram**,  
-no extra apps needed. Just chat in your own language 🗣️.  
+and <img src="assets/icons/telegram_icon.png" alt="Telegram Icon" width="22" style="vertical-align:middle;"> **Telegram**, no extra apps needed.
+
+Just chat in your own language 🗣️!
 
 ---
 
