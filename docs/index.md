@@ -5,7 +5,7 @@ hide:
 
 #
 
-<img src="/assets/logos/BaliBuddy_Translucent.png" alt="Bali Buddy Logo" width="500">
+<img src="assets/logos/BaliBuddy_Translucent.png" alt="Bali Buddy Logo" width="500">
 
 ---
 
@@ -14,8 +14,8 @@ hide:
 Bali Buddy is not just another chatbot — it’s your **local buddy powered by AI**, designed to help you explore, enjoy, and live in Bali with ease.  
 
 Available directly on 
-<img src="/assets/icons/whatsapp_icon.png" alt="Whatsapp Icon" width="22" style="vertical-align:middle;"> **WhatsApp**
-and <img src="/assets/icons/telegram_icon.png" alt="Telegram Icon" width="22" style="vertical-align:middle;"> **Telegram**,  
+<img src="assets/icons/whatsapp_icon.png" alt="Whatsapp Icon" width="22" style="vertical-align:middle;"> **WhatsApp**
+and <img src="assets/icons/telegram_icon.png" alt="Telegram Icon" width="22" style="vertical-align:middle;"> **Telegram**,  
 no extra apps needed. Just chat in your own language 🗣️.  
 
 ---
