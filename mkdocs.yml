@@ -1,0 +1,41 @@
+site_name: Bali Buddy
+site_url: https://balibuddy.ai
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: default
+      primary: teal     # océano
+      accent: amber     # sol tropical
+  font:
+    text: "Nunito Sans"
+    code: "Fira Code"
+  logo: assets/logos/mini_logo_Translucent.png
+  favicon: assets/icons/favicon.ico
+  features:
+    - navigation.sections
+    - content.tabs.link
+  hide:
+    - search
+  plugins: []
+  toc:
+    sidebar: false
+
+
+extra_css:
+  - assets/styles/overrides.css
+
+# Footer
+extra:
+  generator: false
+  copyright: >
+    © 2025 Xift OÜ – <a href="privacy.md">Privacy Notice</a>
+
+nav:
+  - 🌴 Home: index.md
+  - 🏖️ For Tourists: tourists.md
+  - 🌍 For Expats: expats.md
+  - 💼 For Businesses: businesses.md
+  - 🤝 Join: join.md
+#  - 🔒 Privacy: privacy.md
