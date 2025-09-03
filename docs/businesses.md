@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-<img src="/assets/logos/businesses_logo.png" alt="Bali Buddy Logo" width="500">
+<img src="assets/logos/businesses_logo.png" alt="Bali Buddy Logo" width="500">
 
 
 Tourists and expats in Bali are always looking for new places to eat, relax, and explore.  
