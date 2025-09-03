@@ -109,42 +109,12 @@ img[alt="Telegram Icon"] {
 }
 
 /* ================================
-   Footer
+   Custom Footer
    ================================ */
-
-/* Footer compacto, una sola columna */
-.md-footer {
-  background-color: #000000;
-  color: #cccccc;
-  padding: 0.4rem 0 !important;
-}
-
-.md-footer__inner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 0;
-  min-height: auto;
-}
-
-.md-footer__inner p {
-  margin: 0;
-  font-size: 0.85em;
-  line-height: 1.4;
-  text-align: center;
-  color: #cccccc;
-}
-
-.md-footer__inner a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
 .custom-footer {
   text-align: center;
   font-size: 0.85em;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   background: #000000;
   color: #cccccc;
 }
