@@ -140,3 +140,17 @@ img[alt="Telegram Icon"] {
   color: #ffffff;
   text-decoration: underline;
 }
+
+.custom-footer {
+  text-align: center;
+  font-size: 0.85em;
+  padding: 1rem 0;
+  background: #000000;
+  color: #cccccc;
+}
+
+.custom-footer a {
+  color: #ffffff;
+  margin: 0 0.5rem;
+  text-decoration: underline;
+}

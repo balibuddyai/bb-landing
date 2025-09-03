@@ -24,6 +24,7 @@ theme:
 
 
 extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css
   - assets/styles/overrides.css
 
 # Footer
@@ -34,8 +35,8 @@ extra:
 
 # Google Analytics
 extra_javascript:
-  - https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX
-  - assets/js/ga.js
+  - https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js
+  - assets/js/cookies.js
 
 # Menu principal
 nav:
