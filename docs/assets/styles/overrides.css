@@ -181,3 +181,23 @@ a.cta-small:hover,
   margin: 1.5em 0;
   border-radius: 6px;
 }
+
+
+/* Quitar degradado azul de la cabecera en Material for MkDocs */
+.md-header {
+  background: #ffffff !important;  /* Fondo blanco */
+  background-image: none !important; /* Elimina cualquier degradado */
+  box-shadow: none !important;
+}
+
+/* Asegurar que los colores de texto del header se mantengan legibles */
+.md-header, .md-header__inner, .md-tabs {
+  color: #000000 !important;
+}
+
+/* Sobrescribir variables de Material que meten degradado */
+:root {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark: #ffffff;
+}
