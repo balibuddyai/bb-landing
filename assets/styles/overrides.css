@@ -2,6 +2,14 @@
    🌴 Bali Buddy Custom Overrides
    ================================ */
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 80px;  
+}
+
 /* Ocultar icono y barra de búsqueda en Material for MkDocs */
 .md-header__option,
 .md-search {
@@ -123,4 +131,73 @@ img[alt="Telegram Icon"] {
   color: #ffffff;
   margin: 0 0.5rem;
   text-decoration: underline;
+}
+
+
+/* Botones CTA personalizados */
+a.cta {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin: 0.4rem 0.3rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(90deg, #0077b6, #00b4d8); /* azul → teal */
+  color: white !important;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+a.cta:hover {
+  background: linear-gradient(90deg, #00b4d8, #0077b6);
+  transform: scale(1.05);
+}
+
+
+/* Botones pequeños/intermedios */
+a.cta-small,
+.md-typeset a.cta-small {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem 0;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  background: #0077b6; /* azul sólido */
+  color: white !important;
+  font-size: 0.8rem;
+  line-height: 1.2;
+  transition: background 0.3s ease;
+}
+
+a.cta-small:hover,
+.md-typeset a.cta-small:hover {
+  background: #0096c7;
+}
+
+.dev-note {
+  background-color: #e6f2ff; /* azul claro */
+  border-left: 4px solid #3399ff;
+  padding: 1em;
+  margin: 1.5em 0;
+  border-radius: 6px;
+}
+
+
+/* Quitar degradado azul de la cabecera en Material for MkDocs */
+.md-header {
+  background: #ffffff !important;  /* Fondo blanco */
+  background-image: none !important; /* Elimina cualquier degradado */
+  box-shadow: none !important;
+}
+
+/* Asegurar que los colores de texto del header se mantengan legibles */
+.md-header, .md-header__inner, .md-tabs {
+  color: #000000 !important;
+}
+
+/* Sobrescribir variables de Material que meten degradado */
+:root {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark: #ffffff;
 }
