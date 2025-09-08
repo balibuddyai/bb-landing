@@ -15,17 +15,23 @@ theme:
   favicon: assets/icons/favicon.ico
   features:
     - navigation.sections
-    - content.tabs.link
+    - navigation.sections
   hide:
     - search
   plugins: []
   toc:
     sidebar: false
 
-
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css
   - assets/styles/overrides.css
+
+# Extensiones markdown
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
 
 # Footer
 extra:
@@ -40,8 +46,9 @@ extra_javascript:
 
 # Menu principal
 nav:
-  - 🌴 Home: index.md
-  - 🏖️ For Tourists: tourists.md
-  - 🌍 For Expats: expats.md
-  - 💼 For Businesses: businesses.md
-  - 🤝 Join: join.md
+  - 🌴 Home: '#'
+  - 🤖 Why Bali Buddy: '#why-bali-buddy'
+  - 🏝️ For Tourists: '#for-tourists'
+  - 🌍 For Expats: '#for-expats'
+  - 💼 For Businesses: '#for-businesses'
+  - 🚀 Join: '#join-bali-buddy'
